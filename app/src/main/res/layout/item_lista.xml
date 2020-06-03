@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tvDespesa"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:background="@drawable/btn_customizado"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Despesa"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvValor"
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="8dp"
+        android:autofillHints=""
+        android:background="@drawable/btn_customizado"
+        android:baselineAligned="false"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="R$ 0,00"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        android:visibility="visible"
+
+        />
+
+    <Button
+        android:id="@+id/btnRemoverItem"
+        style="@style/Widget.AppCompat.Button.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/ic_delete_black_24dp"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:onClick="cria_despesa"
+        android:text=""
+        android:textAlignment="gravity"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+</LinearLayout>
